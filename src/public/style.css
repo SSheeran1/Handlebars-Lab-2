@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: space-evenly;
+}
+
+.pizza-pic {
+  width: 150px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+}
+#name {
+  width: 50%;
+}
+
+.clicks {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+.submit {
+  margin: 0 10px;
+}

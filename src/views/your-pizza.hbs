@@ -1,0 +1,21 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Your Pizza</h1>
+    <h2>Size: {{size}}</h2>
+    <h2>Toppings: {{toppingAmount}}</h2>
+    <h2>Gluten-Free Crust: {{glutenFree}}</h2>
+    <h2>Special Instructions: {{specialInstructions}}</h2>
+    <h2>Price: ${{price}}</h2>
+    {{#if message}}
+      <p>{{message}}</p>
+    {{/if}}
+    <a href="/custom-pizza">Build another pizza</a>
+    <a href="/">Back to Homepage</a>
+  </body>
+</html>
